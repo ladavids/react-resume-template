@@ -92,9 +92,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have experience across a variety of coding languages including mySQL, Python, Java, C, C#, and javaScript.`,
   aboutItems: [
     {label: 'Location', text: 'Fredericton, NB', Icon: MapIcon},
     {label: 'Age', text: '30', Icon: CalendarIcon},
