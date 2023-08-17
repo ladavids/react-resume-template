@@ -227,25 +227,25 @@ export const education: TimelineItem[] = [
     date: 'January 2019 - May 2023',
     location: 'University of New Brunswick',
     title: 'Bachelor of Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Through practical applications and theoretical studies of computing and programming concepts this degree has given me with the framework to quickly pick up new concepts within the realm of Computer Science.</p>,
   },
   {
     date: '2013 - 2017',
     location: 'The University of Lethbridge',
     title: 'Bachelor of Science: Neuroscience',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>This Degree taught me many critical thinking skills in scientific research. It taught me the underlying theories through a biological perspective of the brain and behavior.</p>,
   },
   {
     date: '2012 - 2013',
     location: 'University of Alberta',
     title: 'Open Studies',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>This program opened my mind to the various learning opportunities of university. It helped me become a better student.</p>,
   },
   {
     date: '2011 - 2012',
     location: 'University of Alberta',
     title: 'Bachelor of Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>This program accelerated my problem solving skills in math. </p>,
   },
 ];
 
