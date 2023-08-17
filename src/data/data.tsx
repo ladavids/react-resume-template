@@ -11,8 +11,8 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/cat_spc.jpg';
+import porfolioImage1 from '../images/portfolio/Spoon.png';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/Sylvester.jpg';
 import testimonialImage from '../images/testimonial.webp';
