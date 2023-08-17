@@ -11,20 +11,9 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -267,8 +256,7 @@ export const experience: TimelineItem[] = [
     title: 'Software Developer - Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Utilized Python and API integration to orchestrate synchronized data flow across multiple platforms, optimizing data consistency and accessibility.
       </p>
     ),
   },
@@ -277,10 +265,26 @@ export const experience: TimelineItem[] = [
     location: 'Centre for Nuclear Research (UNB)',
     title: 'Co-op Student',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+        <ul>
+          <li>
+          Data analysis using python and pandas
+          </li>
+          <li>
+          Wrote well documented code
+          </li>
+          <li>
+          Data visualization using matplotlib
+          </li>
+          <li>
+          Data analysis using python and pandas 
+          </li>
+          <li>
+          Wrote well documented code
+          </li>
+          <li>
+          Data visualization using matplotlib
+          </li>
+        </ul>
     ),
   },
   {
@@ -288,10 +292,20 @@ export const experience: TimelineItem[] = [
     location: 'University of New Brunswick',
     title: 'Student Consultant',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li>
+          Answered and worked through client's questions.
+        </li>
+        <li>
+        Communicated through phone, email, and in person.
+        </li>
+        <li>
+          Provided technical support to students and staff of the university
+        </li>
+        <li>
+        Used a ticketing system to track issues.
+        </li>   
+       </ul>
     ),
   },
   {
@@ -300,8 +314,11 @@ export const experience: TimelineItem[] = [
     title: 'Co-op Student',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        - Used Footprints to create, track, and update ticket issues
+        - Effectively Troubleshooted issues users had in the Microsoft environment
+        - Wrote thorough guides for tasks users had trouble with
+        - Helped faculty set up computer and camera equipment
+        - Collaborated with administrative staff to create file organizational guidelines and worked with faculty to implement these guidelines
       </p>
     ),
   },
@@ -311,8 +328,9 @@ export const experience: TimelineItem[] = [
     title: 'Network Flow Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        -Reviewed papers on internet security
+        -Used python to collect and analyze data on internet traffic
+        -effectively worked as a team to speed up the script to be able to process GBs of data
       </p>
     ),
   },
@@ -322,7 +340,11 @@ export const experience: TimelineItem[] = [
     title: "Crew Leader",
     content: (
       <p>
-
+        *Efficiently resolved customer issues by promptly providing unique and prompt solutions
+        *Continuously refined task-switching skills to meet service time goals
+        *Confidently shared knowledge of navigating the Point-of-Sales System with fellow employees
+        *Coherently synergized, providing a seamless experience to the costumer.
+        *Strategized with managers to delegate tasks to team members.
       </p>
     ),
   },
@@ -332,7 +354,10 @@ export const experience: TimelineItem[] = [
     title: "Lumper",
     content: (
       <p>
-
+        Contracted out to various positions
+        Integrated with multiple teams
+        Specifically requested for by name by clients of A1-Lumpers
+        A client admitted that I was one of the best works they received from A1
       </p>
     )
   },
@@ -342,7 +367,9 @@ export const experience: TimelineItem[] = [
     title: "Maintenance Service Work I",
     content: (
       <p>
-
+        Worked as a part of a team to mow entire campground in 2 days.
+        Promptly found and repaired leaks in the underground irrigation system
+        Kept campground neat through picking up garbage, and emptying dumpsters
       </p>
     )
   },
@@ -352,7 +379,8 @@ export const experience: TimelineItem[] = [
     title: "Irrigation Technician",
     content: (
       <p>
-
+        Tested Chloride levels in water using a portable spectrophotometer
+        Collected water samples weekly for health purposes  
       </p>
     )
   },
@@ -362,17 +390,20 @@ export const experience: TimelineItem[] = [
     title: "Maintenance Service Work I",
     content: (
       <p>
-
+        Accomplished assembling an underground irrigation system for a campground 
+        Provided keen observation skills to ensure the safety of hi-hoe operators working close to power lines
+        Trusted with the responsibility of driving a truck and moving equipment around
       </p>
     )
   },
   {
     date: 'May 2012 - August 2012',
-    location: 'Alberta Provincial Parks',
-    title: "Maintenance Service Work I",
+    location: 'Brooks Golf Course',
+    title: "General Labourer",
     content: (
       <p>
-
+        Received compliments for consistently providing patrons with clean bathrooms
+Cut the grass of the roughs around 2-3 fairways per day
       </p>
     )
   },
@@ -383,26 +414,26 @@ export const experience: TimelineItem[] = [
  * Testimonial section
  */
 // ADD These in as I get them or can remember them.
-// export const testimonial: TestimonialSection = {
-//   imageSrc: testimonialImage,
-//   testimonials: [
-//     {
-//       name: 'John Doe',
-//       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-//     },
-//     {
-//       name: 'Jane Doe',
-//       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-//     },
-//     {
-//       name: 'Someone else',
-//       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-//     },
-//   ],
-// };
+export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'John Doe',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'Jane Doe',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Someone else',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+  ],
+};
 
 /**
  * Contact section
